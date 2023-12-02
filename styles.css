@@ -1,14 +1,9 @@
 /* Base styles */
 .container {
-  height: 1557.15px;
-  left: 50px;
-  top: 96.92px;
-  position: absolute;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 24px;
-  display: inline-flex;
+  max-width: 880px; /* Limit the width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add padding */
+  box-sizing: border-box;
 }
 
 .Frame12691 {
@@ -61,6 +56,8 @@
   align-items: center;
   gap: 12px;
   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: center;
 }
 
 .Frame12647 {
@@ -110,6 +107,8 @@
   align-items: flex-end;
   gap: 12px;
   display: inline-flex;
+  width: 100%; /* Full width */
+  margin-top: 20px;
 }
 
 .YaConocesEsteTema {
@@ -124,20 +123,21 @@
 }
 
 .Button {
-  width: 206px;
+  width: auto;
   padding: 8px;
   background: #40B494;
   border-radius: 8px;
   justify-content: center;
   align-items: center;
   gap: 8px;
-  display: inline-flex;
+  display: flex;
   color: white;
   font-size: 16px;
   font-family: 'TWK Everett', sans-serif;
   font-weight: 500;
   line-height: 24px;
   word-wrap: break-word;
+; margin-top: 10px;
 }
 
 .Transcripcion {
@@ -179,29 +179,41 @@
 /* Styles for mobile and small screens */
 @media only screen and (max-width: 768px) {
   .container, .Frame12647, .Frame12687, .Thumbnail, .VideoFrame {
-    width: 100%;
-    padding: 10px;
+    height: auto;
+    position: relative;
     left: 0;
     top: 0;
-    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
   }
 
-  .Frame12686, .Frame12684, .Frame12688, .Frame12689, .resumenLeccion, .oneSentence, .YaConocesEsteTema, .TextoClase, .Transcripcion {
+  .Frame12686, .Frame12684, .Frame12688, .resumenLeccion, .oneSentence, .YaConocesEsteTema, .TextoClase, .Transcripcion {
     font-size: smaller;
     width: auto;
+    flex-direction: column; /* Stack items vertically */
+
+  }
+  .Frame12689 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    order: 3;
   }
 
-  .VideoFrame {
+  .Thumbnail, .VideoFrame {
+    width: 100%;
     height: auto; /* Maintain aspect ratio */
   }
 
-  .Frame12647 {
+  .Frame12647, .Frame12687 {
+    width: 100%;
     flex-direction: column;
     align-items: center;
-  }
-
-  .Frame12688, .Frame12689 {
-    align-items: center;
+    padding: 10px;
   }
 
   .Button {
@@ -214,4 +226,3 @@
   .TextoClase {
     margin-bottom: 30px; /* Add space at the bottom of the text */
   }
-}
