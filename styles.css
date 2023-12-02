@@ -1,0 +1,185 @@
+.Frame12690 {
+  height: 1557.15px;
+  left: 324px;
+  top: 96.92px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+}
+
+.Frame12691 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: flex;
+}
+
+.AprenderCursosInicio {
+  color: #686F73;
+  font-size: 12px;
+  font-family: TWK Everett;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.QuEsLaWeb3 {
+  color: black;
+  font-size: 24px;
+  font-family: TWK Everett;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.Thumbnail {
+  align-self: stretch;
+  height: 460.15px;
+  border-radius: 4px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.VideoFrame {
+  width: 880px;
+  height: 420.15px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.Frame12686 {
+  align-self: stretch;
+  padding: 12px;
+  background: white;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display:
+}
+
+.Frame12647 {
+  width: 880px;
+  height: 140px;
+  padding: 16px 24px;
+  background: #E0FEF6;
+  border-radius: 4px;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: inline-flex;
+  border-radius: 25px;
+}
+
+.Frame12688 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 9px;
+  display: inline-flex;
+}
+
+.resumenLeccion {
+  color: black;
+  font-size: 20px;
+  font-family: 'TWK Everett', sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+  border-radius: 25px;
+
+}
+
+.oneSentence {
+  width: 506.49px;
+  color: #393F44;
+  font-size: 16px;
+  font-family: 'TWK Everett', sans-serif;
+  font-weight: 400;
+  line-height: 31px;
+  word-wrap: break-word;
+}
+
+.Frame12689 {
+  padding: 16px;
+  background: white;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 12px;
+  display: inline-flex;
+  border-radius: 25px;
+
+}
+
+.YaConocesEsteTema {
+  align-self: stretch;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-family: 'TWK Everett', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+  border-radius: 25px;
+
+}
+
+.Button {
+  width: 206px;
+  padding: 8px;
+  background: #40B494;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+  color: white;
+  font-size: 16px;
+  font-family: 'TWK Everett', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.Transcripcion {
+  align-self: stretch;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  font-family: 'TWK Everett', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+  flex: auto;
+}
+.Frame12687 {
+  background-color: white; /* White background */
+  padding: 20px; /* Spacing inside the container */
+  border-bottom: 1px solid #cccccc; /* Light grey border at the bottom for separation */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Space below the container */
+  width: 880px;
+  height: auto;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.Transcripcion {
+  color: #000000; /* Black text color */
+  font-size: 18px; /* Slightly larger font size */
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.TextoClase {
+  color: #333333; /* Dark grey text for the body */
+  font-size: 16px; /* Standard body font size */
+  line-height: 1.6; /* Adjust line-height for readability */
+  margin-bottom: 30px; /* Bottom spacing between paragraphs */
+  justify-content: flex-start;
+}
