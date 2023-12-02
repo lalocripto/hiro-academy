@@ -73,6 +73,7 @@
   justify-content: space-between;
   align-items: flex-start;
   display: inline-flex;
+  flex-direction: column;
 }
 
 .Frame12688 {
@@ -102,12 +103,14 @@
 }
 
 .Frame12689 {
+  width: 100%;
+  margin-top: 10px;
   padding: 16px;
   background: white;
   border-radius: 4px;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: center;
   gap: 12px;
   display: inline-flex;
 }
@@ -124,8 +127,8 @@
 }
 
 .Button {
-  width: 206px;
-  padding: 8px;
+  width: 100%;
+  padding: 10px 20px;
   background: #40B494;
   border-radius: 8px;
   justify-content: center;
@@ -188,7 +191,6 @@
   .Frame12686, .Frame12684, .Frame12688, .Frame12689, .resumenLeccion, .oneSentence, .YaConocesEsteTema, .Button, .TextoClase, .Transcripcion {
     font-size: smaller;
     width: auto;
-    height: auto;
   }
 
   .VideoFrame {
